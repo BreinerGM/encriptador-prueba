@@ -5,3 +5,5 @@
 - Estado del miniproyecto: En construcción. 
 
 - Este proyecto aun no es responsive.
+
+- SI PUEDES IMAGINARLO, PUEDES PROGRAMARLO.
