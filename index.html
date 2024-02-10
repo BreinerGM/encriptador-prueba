@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/imagenes/3709742_board_forum_information_text_web_icon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost&display=swap" rel="stylesheet">
+</head>
+<body class="index-body">
+    <main class="main">
+        <section class="section-1-cont">
+            <header class="header">
+                <a class="header-img" href=""><img src="/imagenes/Logo.png" alt="imagendealura"></a>
+            </header>
+            <div class="contenedor">
+                <textarea class="section-1-cont__area" name="text" id="text" cols="1" rows="7" placeholder="ingrese el texto aquí"></textarea>
+                <img class="section-1-cont__img" src="/imagenes/Solo letras minúsculas y sin acentos.svg" alt="aviso">
+                    <div class="section-1-cont-bot">
+                        <input onclick="encriptarText();" class="section-1-cont__b1" type="button" value="Encriptar">
+                        <input onclick="descriptarText();" class="section-1-cont__b2" type="button" value="Desencriptar">
+                    </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="section-2-card">
+                <h1 class="section-2-card-h1" id="textR"></h1>
+                <img src="/imagenes/Muñeco.png" alt="muñeco buscando" id="img1">
+                <h2 class="section-2-card-h2" id="aviso1">Ningún mensaje fue encontrado</h2>
+                <h3 class="section-2-card-h3" id="aviso2">Ingresa el texto que desees encriptar o desencriptar.</h3>
+                <input class="section-2-card-btn" onclick="copyText()" type="button" id="copy" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>
